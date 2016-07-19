@@ -1,0 +1,336 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* magnet\
+* magnet\.gitignore
+* magnet\build.gradle
+* magnet\build\
+* magnet\build\generated\
+* magnet\build\generated\source\
+* magnet\build\generated\source\buildConfig\
+* magnet\build\generated\source\buildConfig\androidTest\
+* magnet\build\generated\source\buildConfig\androidTest\debug\
+* magnet\build\generated\source\buildConfig\androidTest\debug\com\
+* magnet\build\generated\source\buildConfig\androidTest\debug\com\premnirmal\
+* magnet\build\generated\source\buildConfig\androidTest\debug\com\premnirmal\Magnet\
+* magnet\build\generated\source\buildConfig\androidTest\debug\com\premnirmal\Magnet\test\
+* magnet\build\generated\source\buildConfig\androidTest\debug\com\premnirmal\Magnet\test\BuildConfig.java
+* magnet\build\generated\source\buildConfig\debug\
+* magnet\build\generated\source\buildConfig\debug\com\
+* magnet\build\generated\source\buildConfig\debug\com\premnirmal\
+* magnet\build\generated\source\buildConfig\debug\com\premnirmal\Magnet\
+* magnet\build\generated\source\buildConfig\debug\com\premnirmal\Magnet\BuildConfig.java
+* magnet\build\generated\source\buildConfig\release\
+* magnet\build\generated\source\buildConfig\release\com\
+* magnet\build\generated\source\buildConfig\release\com\premnirmal\
+* magnet\build\generated\source\buildConfig\release\com\premnirmal\Magnet\
+* magnet\build\generated\source\buildConfig\release\com\premnirmal\Magnet\BuildConfig.java
+* magnet\build\generated\source\r\
+* magnet\build\generated\source\r\androidTest\
+* magnet\build\generated\source\r\androidTest\debug\
+* magnet\build\generated\source\r\androidTest\debug\com\
+* magnet\build\generated\source\r\androidTest\debug\com\premnirmal\
+* magnet\build\generated\source\r\androidTest\debug\com\premnirmal\Magnet\
+* magnet\build\generated\source\r\androidTest\debug\com\premnirmal\Magnet\R.java
+* magnet\build\generated\source\r\androidTest\debug\com\premnirmal\Magnet\test\
+* magnet\build\generated\source\r\androidTest\debug\com\premnirmal\Magnet\test\R.java
+* magnet\build\generated\source\r\debug\
+* magnet\build\generated\source\r\debug\com\
+* magnet\build\generated\source\r\debug\com\premnirmal\
+* magnet\build\generated\source\r\debug\com\premnirmal\Magnet\
+* magnet\build\generated\source\r\debug\com\premnirmal\Magnet\R.java
+* magnet\build\generated\source\r\release\
+* magnet\build\generated\source\r\release\com\
+* magnet\build\generated\source\r\release\com\premnirmal\
+* magnet\build\generated\source\r\release\com\premnirmal\Magnet\
+* magnet\build\generated\source\r\release\com\premnirmal\Magnet\R.java
+* magnet\build\intermediates\
+* magnet\build\intermediates\blame\
+* magnet\build\intermediates\blame\res\
+* magnet\build\intermediates\blame\res\androidTest\
+* magnet\build\intermediates\blame\res\androidTest\debug\
+* magnet\build\intermediates\blame\res\androidTest\debug\multi\
+* magnet\build\intermediates\blame\res\androidTest\debug\multi\values.json
+* magnet\build\intermediates\blame\res\androidTest\debug\single\
+* magnet\build\intermediates\blame\res\androidTest\debug\single\anim.json
+* magnet\build\intermediates\blame\res\androidTest\debug\single\drawable-hdpi-v4.json
+* magnet\build\intermediates\blame\res\androidTest\debug\single\drawable-mdpi-v4.json
+* magnet\build\intermediates\blame\res\androidTest\debug\single\drawable-xhdpi-v4.json
+* magnet\build\intermediates\blame\res\androidTest\debug\single\drawable-xxhdpi-v4.json
+* magnet\build\intermediates\blame\res\androidTest\debug\single\drawable.json
+* magnet\build\intermediates\blame\res\androidTest\debug\single\layout.json
+* magnet\build\intermediates\blame\res\androidTest\debug\single\menu.json
+* magnet\build\intermediates\bundles\
+* magnet\build\intermediates\bundles\debug\
+* magnet\build\intermediates\bundles\debug\AndroidManifest.xml
+* magnet\build\intermediates\bundles\debug\R.txt
+* magnet\build\intermediates\bundles\debug\aapt\
+* magnet\build\intermediates\bundles\debug\aapt\AndroidManifest.xml
+* magnet\build\intermediates\bundles\debug\classes.jar
+* magnet\build\intermediates\bundles\debug\res\
+* magnet\build\intermediates\bundles\debug\res\anim\
+* magnet\build\intermediates\bundles\debug\res\anim\slide_down.xml
+* magnet\build\intermediates\bundles\debug\res\anim\slide_up.xml
+* magnet\build\intermediates\bundles\debug\res\drawable-hdpi-v4\
+* magnet\build\intermediates\bundles\debug\res\drawable-hdpi-v4\ic_launcher.png
+* magnet\build\intermediates\bundles\debug\res\drawable-hdpi-v4\trash.png
+* magnet\build\intermediates\bundles\debug\res\drawable-mdpi-v4\
+* magnet\build\intermediates\bundles\debug\res\drawable-mdpi-v4\ic_launcher.png
+* magnet\build\intermediates\bundles\debug\res\drawable-mdpi-v4\trash.png
+* magnet\build\intermediates\bundles\debug\res\drawable-xhdpi-v4\
+* magnet\build\intermediates\bundles\debug\res\drawable-xhdpi-v4\ic_launcher.png
+* magnet\build\intermediates\bundles\debug\res\drawable-xhdpi-v4\trash.png
+* magnet\build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\
+* magnet\build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\ic_launcher.png
+* magnet\build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\trash.png
+* magnet\build\intermediates\bundles\debug\res\drawable\
+* magnet\build\intermediates\bundles\debug\res\drawable\bottom_shadow.xml
+* magnet\build\intermediates\bundles\debug\res\layout\
+* magnet\build\intermediates\bundles\debug\res\layout\x_button_holder.xml
+* magnet\build\intermediates\bundles\debug\res\menu\
+* magnet\build\intermediates\bundles\debug\res\menu\paranormal.xml
+* magnet\build\intermediates\bundles\debug\res\values\
+* magnet\build\intermediates\bundles\debug\res\values\values.xml
+* magnet\build\intermediates\bundles\release\
+* magnet\build\intermediates\bundles\release\AndroidManifest.xml
+* magnet\build\intermediates\bundles\release\R.txt
+* magnet\build\intermediates\bundles\release\aapt\
+* magnet\build\intermediates\bundles\release\aapt\AndroidManifest.xml
+* magnet\build\intermediates\bundles\release\classes.jar
+* magnet\build\intermediates\bundles\release\res\
+* magnet\build\intermediates\bundles\release\res\anim\
+* magnet\build\intermediates\bundles\release\res\anim\slide_down.xml
+* magnet\build\intermediates\bundles\release\res\anim\slide_up.xml
+* magnet\build\intermediates\bundles\release\res\drawable-hdpi-v4\
+* magnet\build\intermediates\bundles\release\res\drawable-hdpi-v4\ic_launcher.png
+* magnet\build\intermediates\bundles\release\res\drawable-hdpi-v4\trash.png
+* magnet\build\intermediates\bundles\release\res\drawable-mdpi-v4\
+* magnet\build\intermediates\bundles\release\res\drawable-mdpi-v4\ic_launcher.png
+* magnet\build\intermediates\bundles\release\res\drawable-mdpi-v4\trash.png
+* magnet\build\intermediates\bundles\release\res\drawable-xhdpi-v4\
+* magnet\build\intermediates\bundles\release\res\drawable-xhdpi-v4\ic_launcher.png
+* magnet\build\intermediates\bundles\release\res\drawable-xhdpi-v4\trash.png
+* magnet\build\intermediates\bundles\release\res\drawable-xxhdpi-v4\
+* magnet\build\intermediates\bundles\release\res\drawable-xxhdpi-v4\ic_launcher.png
+* magnet\build\intermediates\bundles\release\res\drawable-xxhdpi-v4\trash.png
+* magnet\build\intermediates\bundles\release\res\drawable\
+* magnet\build\intermediates\bundles\release\res\drawable\bottom_shadow.xml
+* magnet\build\intermediates\bundles\release\res\layout\
+* magnet\build\intermediates\bundles\release\res\layout\x_button_holder.xml
+* magnet\build\intermediates\bundles\release\res\menu\
+* magnet\build\intermediates\bundles\release\res\menu\paranormal.xml
+* magnet\build\intermediates\bundles\release\res\values\
+* magnet\build\intermediates\bundles\release\res\values\values.xml
+* magnet\build\intermediates\classes\
+* magnet\build\intermediates\classes\debug\
+* magnet\build\intermediates\classes\debug\com\
+* magnet\build\intermediates\classes\debug\com\premnirmal\
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\BuildConfig.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\FlingListener.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\IconCallback.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\Magnet$Builder.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\Magnet$MoveAnimator.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\Magnet.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\R$anim.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\R$attr.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\R$dimen.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\R$drawable.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\R$id.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\R$layout.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\R$menu.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\R$string.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\R$style.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\R.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\RemoveView$1.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\RemoveView.class
+* magnet\build\intermediates\classes\debug\com\premnirmal\Magnet\SimpleAnimator.class
+* magnet\build\intermediates\classes\release\
+* magnet\build\intermediates\classes\release\com\
+* magnet\build\intermediates\classes\release\com\premnirmal\
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\BuildConfig.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\FlingListener.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\IconCallback.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\Magnet$Builder.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\Magnet$MoveAnimator.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\Magnet.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\R$anim.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\R$attr.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\R$dimen.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\R$drawable.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\R$id.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\R$layout.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\R$menu.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\R$string.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\R$style.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\R.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\RemoveView$1.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\RemoveView.class
+* magnet\build\intermediates\classes\release\com\premnirmal\Magnet\SimpleAnimator.class
+* magnet\build\intermediates\incremental-safeguard\
+* magnet\build\intermediates\incremental-safeguard\debug\
+* magnet\build\intermediates\incremental-safeguard\debug\tag.txt
+* magnet\build\intermediates\incremental-safeguard\release\
+* magnet\build\intermediates\incremental-safeguard\release\tag.txt
+* magnet\build\intermediates\incremental\
+* magnet\build\intermediates\incremental\compileDebugAidl\
+* magnet\build\intermediates\incremental\compileDebugAidl\dependency.store
+* magnet\build\intermediates\incremental\compileDebugAndroidTestAidl\
+* magnet\build\intermediates\incremental\compileDebugAndroidTestAidl\dependency.store
+* magnet\build\intermediates\incremental\compileReleaseAidl\
+* magnet\build\intermediates\incremental\compileReleaseAidl\dependency.store
+* magnet\build\intermediates\incremental\mergeDebugAndroidTestAssets\
+* magnet\build\intermediates\incremental\mergeDebugAndroidTestAssets\merger.xml
+* magnet\build\intermediates\incremental\mergeDebugAndroidTestResources\
+* magnet\build\intermediates\incremental\mergeDebugAndroidTestResources\merger.xml
+* magnet\build\intermediates\incremental\mergeDebugAndroidTestShaders\
+* magnet\build\intermediates\incremental\mergeDebugAndroidTestShaders\merger.xml
+* magnet\build\intermediates\incremental\mergeDebugAssets\
+* magnet\build\intermediates\incremental\mergeDebugAssets\merger.xml
+* magnet\build\intermediates\incremental\mergeDebugJniLibFolders\
+* magnet\build\intermediates\incremental\mergeDebugJniLibFolders\merger.xml
+* magnet\build\intermediates\incremental\mergeDebugShaders\
+* magnet\build\intermediates\incremental\mergeDebugShaders\merger.xml
+* magnet\build\intermediates\incremental\mergeReleaseAssets\
+* magnet\build\intermediates\incremental\mergeReleaseAssets\merger.xml
+* magnet\build\intermediates\incremental\mergeReleaseJniLibFolders\
+* magnet\build\intermediates\incremental\mergeReleaseJniLibFolders\merger.xml
+* magnet\build\intermediates\incremental\mergeReleaseShaders\
+* magnet\build\intermediates\incremental\mergeReleaseShaders\merger.xml
+* magnet\build\intermediates\incremental\packageDebugResources\
+* magnet\build\intermediates\incremental\packageDebugResources\merger.xml
+* magnet\build\intermediates\incremental\packageReleaseResources\
+* magnet\build\intermediates\incremental\packageReleaseResources\merger.xml
+* magnet\build\intermediates\manifest\
+* magnet\build\intermediates\manifest\androidTest\
+* magnet\build\intermediates\manifest\androidTest\debug\
+* magnet\build\intermediates\manifest\androidTest\debug\AndroidManifest.xml
+* magnet\build\intermediates\res\
+* magnet\build\intermediates\res\merged\
+* magnet\build\intermediates\res\merged\androidTest\
+* magnet\build\intermediates\res\merged\androidTest\debug\
+* magnet\build\intermediates\res\merged\androidTest\debug\anim\
+* magnet\build\intermediates\res\merged\androidTest\debug\anim\slide_down.xml
+* magnet\build\intermediates\res\merged\androidTest\debug\anim\slide_up.xml
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\ic_launcher.png
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable-hdpi-v4\trash.png
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\ic_launcher.png
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable-mdpi-v4\trash.png
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\ic_launcher.png
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable-xhdpi-v4\trash.png
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable-xxhdpi-v4\
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable-xxhdpi-v4\ic_launcher.png
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable-xxhdpi-v4\trash.png
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable\
+* magnet\build\intermediates\res\merged\androidTest\debug\drawable\bottom_shadow.xml
+* magnet\build\intermediates\res\merged\androidTest\debug\layout\
+* magnet\build\intermediates\res\merged\androidTest\debug\layout\x_button_holder.xml
+* magnet\build\intermediates\res\merged\androidTest\debug\menu\
+* magnet\build\intermediates\res\merged\androidTest\debug\menu\paranormal.xml
+* magnet\build\intermediates\res\merged\androidTest\debug\values\
+* magnet\build\intermediates\res\merged\androidTest\debug\values\values.xml
+* magnet\build\intermediates\res\resources-debug-androidTest.ap_
+* magnet\build\intermediates\symbols\
+* magnet\build\intermediates\symbols\androidTest\
+* magnet\build\intermediates\symbols\androidTest\debug\
+* magnet\build\intermediates\symbols\androidTest\debug\R.txt
+* magnet\build\outputs\
+* magnet\build\outputs\aar\
+* magnet\build\outputs\aar\magnet-debug.aar
+* magnet\build\outputs\aar\magnet-release.aar
+* magnet\gradle.properties
+* magnet\magnet.iml
+* magnet\proguard-rules.pro
+* magnet\src\
+* magnet\src\androidTest\
+* magnet\src\androidTest\java\
+* magnet\src\androidTest\java\com\
+* magnet\src\androidTest\java\com\premnirmal\
+* magnet\src\androidTest\java\com\premnirmal\Magnet\
+* magnet\src\androidTest\java\com\premnirmal\Magnet\ApplicationTest.java
+* magnet\src\main\
+* magnet\src\main\AndroidManifest.xml
+* magnet\src\main\java\
+* magnet\src\main\java\com\
+* magnet\src\main\java\com\premnirmal\
+* magnet\src\main\java\com\premnirmal\Magnet\
+* magnet\src\main\java\com\premnirmal\Magnet\FlingListener.java
+* magnet\src\main\java\com\premnirmal\Magnet\IconCallback.java
+* magnet\src\main\java\com\premnirmal\Magnet\Magnet.java
+* magnet\src\main\java\com\premnirmal\Magnet\RemoveView.java
+* magnet\src\main\java\com\premnirmal\Magnet\SimpleAnimator.java
+* magnet\src\main\res\
+* magnet\src\main\res\anim\
+* magnet\src\main\res\anim\slide_down.xml
+* magnet\src\main\res\anim\slide_up.xml
+* magnet\src\main\res\drawable-hdpi\
+* magnet\src\main\res\drawable-hdpi\ic_launcher.png
+* magnet\src\main\res\drawable-hdpi\trash.png
+* magnet\src\main\res\drawable-mdpi\
+* magnet\src\main\res\drawable-mdpi\ic_launcher.png
+* magnet\src\main\res\drawable-mdpi\trash.png
+* magnet\src\main\res\drawable-xhdpi\
+* magnet\src\main\res\drawable-xhdpi\ic_launcher.png
+* magnet\src\main\res\drawable-xhdpi\trash.png
+* magnet\src\main\res\drawable-xxhdpi\
+* magnet\src\main\res\drawable-xxhdpi\ic_launcher.png
+* magnet\src\main\res\drawable-xxhdpi\trash.png
+* magnet\src\main\res\drawable\
+* magnet\src\main\res\drawable\bottom_shadow.xml
+* magnet\src\main\res\layout\
+* magnet\src\main\res\layout\x_button_holder.xml
+* magnet\src\main\res\menu\
+* magnet\src\main\res\menu\paranormal.xml
+* magnet\src\main\res\values\
+* magnet\src\main\res\values\dimens.xml
+* magnet\src\main\res\values\strings.xml
+* magnet\src\main\res\values\styles.xml
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

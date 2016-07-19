@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/big_float_window"
+    android:layout_width="120dip"
+    android:layout_height="90dip"
+    android:background="@drawable/bg_big">
+
+    <Button
+        android:id="@+id/close_float"
+        android:layout_width="100dip"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:text="Close"/>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="100dip"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:text="Return"/>
+
+</LinearLayout>

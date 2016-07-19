@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Monitor</string>
+    <string name="action_settings">Settings</string>
+    <string name="startmonitor">Start Monitor</string>
+    <string name="stopmonitor">Stop Monitor</string>
+    <string name="clearmemory">Clear Memory</string>
+    <string name="total_pss">Pss Total:\r\n</string>
+    <string name="permission_err"></string>
+
+</resources>
