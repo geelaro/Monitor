@@ -12,7 +12,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class CoreService extends Service {
-    private final static String TAG = "CoreService";
+    //当前类名
+    private final static String TAG = CoreService.class.getSimpleName();
 
     private Timer mTimer;
 
