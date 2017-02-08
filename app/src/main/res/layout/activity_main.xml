@@ -12,7 +12,8 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="@string/selected_package_name"/>
     <Button
         android:id="@+id/button_start"
         android:layout_width="match_parent"

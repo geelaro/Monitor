@@ -33,7 +33,7 @@ public class CoreService extends Service {
 
         if (mTimer == null) {
             mTimer = new Timer();
-            mTimer.scheduleAtFixedRate(new RefreshTask(), 0, 500);//ms
+            mTimer.scheduleAtFixedRate(new RefreshTask(), 0, 500);//500ms 刷新一次数据
             Log.d(TAG, "onStartCommand: ");
         }
         return super.onStartCommand(intent, flags, startId);

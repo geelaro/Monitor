@@ -29,7 +29,7 @@ public class MemoryUtil {
         // 运行的进程
 
         if (Build.VERSION.SDK_INT >= 21) {
-            List<AndroidAppProcess> list = ProcessManager.getRunningAppProcesses();
+            List<AndroidAppProcess> list = com.jaredrummler.android.processes.AndroidProcesses.getRunningAppProcesses();
             if (list != null) {
                 for (AndroidAppProcess processInfo : list) {
                     if (processNameList.contains(processInfo.name)) {

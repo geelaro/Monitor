@@ -25,13 +25,13 @@ public class FloatWindowBigView extends LinearLayout {
 
     public FloatWindowBigView(final Context context) {
         super(context);
-        LayoutInflater.from(context).inflate(R.layout.float_window_big,this);
-        View view=findViewById(R.id.big_float_window);
-        viewWidth=view.getLayoutParams().width;
-        viewHeight=view.getLayoutParams().height;
+        LayoutInflater.from(context).inflate(R.layout.float_window_big, this);
+        View view = findViewById(R.id.big_float_window);
+        viewWidth = view.getLayoutParams().width;
+        viewHeight = view.getLayoutParams().height;
 
-        close=(Button)findViewById(R.id.close_float);
-        back=(Button)findViewById(R.id.back);
+        close = (Button) findViewById(R.id.close_float);
+        back = (Button) findViewById(R.id.back);
 
         close.setOnClickListener(new OnClickListener() {
             @Override
@@ -39,7 +39,7 @@ public class FloatWindowBigView extends LinearLayout {
                 // 点击关闭时，关闭悬浮窗并停止service
                 MyWindowManager.removeBigWindow(context);
                 MyWindowManager.removeSmallWindow(context);
-                Intent intent=new Intent(getContext(), CoreService.class);
+                Intent intent = new Intent(getContext(), CoreService.class);
                 context.stopService(intent);
 
             }

@@ -8,5 +8,6 @@
     <string name="clearmemory">Clear Memory</string>
     <string name="total_pss">Pss Total:\r\n</string>
     <string name="permission_err"></string>
+    <string name="selected_package_name">请输入要监测的程序包名</string>
 
 </resources>

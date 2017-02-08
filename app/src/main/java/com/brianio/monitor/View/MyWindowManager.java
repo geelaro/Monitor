@@ -76,7 +76,7 @@ public class MyWindowManager {
                 bigWindowParams.format = PixelFormat.RGBA_8888;
                 bigWindowParams.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL
                         | WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE;
-                bigWindowParams.gravity=Gravity.LEFT |Gravity.TOP;
+                bigWindowParams.gravity = Gravity.LEFT | Gravity.TOP;
                 bigWindowParams.width = FloatWindowBigView.viewWidth;
                 bigWindowParams.height = FloatWindowBigView.viewHeight;
                 bigWindowParams.x = ScreenWidth;
@@ -149,7 +149,7 @@ public class MyWindowManager {
             long availableSize = getAvailableMemory(context) / 1024;
             int percent = (int) ((totalMemorySize - availableSize) / (float) totalMemorySize * 100);
 //            return percent + "%";
-            return availableSize/1024+"M";
+            return availableSize / 1024 + "M";
         } catch (IOException e) {
 
             e.printStackTrace();
@@ -158,7 +158,7 @@ public class MyWindowManager {
     }
 
     //获取剩余可用内存
-    private static long getAvailableMemory(Context context) {
+    public static long getAvailableMemory(Context context) {
         ActivityManager.MemoryInfo memoryInfo = new ActivityManager.MemoryInfo();
         getActivityManager(context).getMemoryInfo(memoryInfo);
         return memoryInfo.availMem;

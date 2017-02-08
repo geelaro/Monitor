@@ -12,11 +12,12 @@ import android.widget.TextView;
 import com.brianio.monitor.R;
 
 import java.lang.reflect.Field;
+
 /**
  * Created by Administrator on 2016/7/15.
  */
 public class FloatWindowSmallView extends LinearLayout {
-    private final static String TAG="SmallFloatWindow";
+    private final static String TAG = "SmallFloatWindow";
     //Width
     public static int viewWidth;
     //Height
@@ -42,39 +43,41 @@ public class FloatWindowSmallView extends LinearLayout {
 
     public FloatWindowSmallView(Context context) {
         super(context);
-        windowManager=(WindowManager)context.getSystemService(Context.WINDOW_SERVICE);
-        LayoutInflater.from(context).inflate(R.layout.float_window_small,this);
-        View view=findViewById(R.id.small_float_window);
-        viewWidth=view.getLayoutParams().width;
-        viewHeight=view.getLayoutParams().height;
+        windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        LayoutInflater.from(context).inflate(R.layout.float_window_small, this);
+        View view = findViewById(R.id.small_float_window);
+        viewWidth = view.getLayoutParams().width;
+        viewHeight = view.getLayoutParams().height;
 
-        TextView percentView=(TextView) findViewById(R.id.percent);
+        TextView percentView = (TextView) findViewById(R.id.percent);
         //TODO
         percentView.setText(MyWindowManager.getUsedMemory(context));
+//        percentView.setText("."+MyWindowManager.getAvailableMemory(context));
     }
+
     @Override
-    public boolean onTouchEvent(MotionEvent event){
+    public boolean onTouchEvent(MotionEvent event) {
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 // 手指按下时记录必要数据,纵坐标的值都需要减去状态栏高度
-                xInView=event.getX();
-                yInView=event.getY();
+                xInView = event.getX();
+                yInView = event.getY();
 
-                xDownInScreen=event.getRawX();
-                yDownInScreen=event.getRawY()-getStatusBarHeight();
+                xDownInScreen = event.getRawX();
+                yDownInScreen = event.getRawY() - getStatusBarHeight();
 
-                xInScreen=event.getRawX();
-                yInScreen=event.getRawY()-getStatusBarHeight();
+                xInScreen = event.getRawX();
+                yInScreen = event.getRawY() - getStatusBarHeight();
                 break;
             case MotionEvent.ACTION_MOVE:
-                xInScreen=event.getRawX();
-                yInScreen=event.getRawY()-getStatusBarHeight();
+                xInScreen = event.getRawX();
+                yInScreen = event.getRawY() - getStatusBarHeight();
                 //手指移动时候更新ball的位置
                 updateViewPosition();
                 break;
             case MotionEvent.ACTION_UP:
                 //
-                if((xDownInScreen==xInScreen)&&(yDownInScreen==yInScreen)){
+                if ((xDownInScreen == xInScreen) && (yDownInScreen == yInScreen)) {
                     openBigWindow();
                 }
                 break;
@@ -83,34 +86,37 @@ public class FloatWindowSmallView extends LinearLayout {
         }
         return true;
     }
+
     //将小悬浮球的位置传入，用于更新位置
-    public void setParams(WindowManager.LayoutParams params){
-        mParams=params;
+    public void setParams(WindowManager.LayoutParams params) {
+        mParams = params;
     }
+
     //更新悬浮球的位置
-    public void updateViewPosition(){
-        mParams.x=(int)(xInScreen-xInView);
-        mParams.y=(int)(yInScreen-yInView);
-        windowManager.updateViewLayout(this,mParams);
+    public void updateViewPosition() {
+        mParams.x = (int) (xInScreen - xInView);
+        mParams.y = (int) (yInScreen - yInView);
+        windowManager.updateViewLayout(this, mParams);
         Log.d(TAG, "updateViewPosition() executed");
     }
+
     //打开大悬浮窗
-    public void openBigWindow(){
+    public void openBigWindow() {
         MyWindowManager.removeSmallWindow(getContext());
         MyWindowManager.createBigWindow(getContext());
     }
 
 
     //获取状态栏的高度，返回像素值
-    private int getStatusBarHeight(){
-        if(statusBarHeight==0){
-            try{
-                Class<?> c=Class.forName("com.android.internal.R$dimen");
-                Object o=c.newInstance();
-                Field field=c.getField("status_bar_height");
-                int x=(Integer) field.get(o);
-                statusBarHeight=getResources().getDimensionPixelOffset(x);
-            }catch (Exception e){
+    private int getStatusBarHeight() {
+        if (statusBarHeight == 0) {
+            try {
+                Class<?> c = Class.forName("com.android.internal.R$dimen");
+                Object o = c.newInstance();
+                Field field = c.getField("status_bar_height");
+                int x = (Integer) field.get(o);
+                statusBarHeight = getResources().getDimensionPixelOffset(x);
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }

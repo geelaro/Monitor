@@ -1,0 +1,91 @@
+AGGREGATED OVER LAST 24 HOURS:
+Per-Package Stats:
+  * com.brianio.monitor / u0a81:
+      * com.brianio.monitor / u0a81:
+               TOTAL: 5.1% (4.1MB-12MB-20MB/3.0MB-10MB-18MB over 10)
+                 Top: 0.36% (10MB-12MB-15MB/8.1MB-9.8MB-13MB over 3)
+             Service: 4.7% (4.1MB-12MB-20MB/3.0MB-10MB-18MB over 7)
+          Service Rs: 0.00%
+          (Last Act): 0.01%
+      * com.brianio.monitor.service.CoreService:
+        Process: com.brianio.monitor
+            Running count 13 / time 4.5%
+            Started count 8 / time 4.5%
+          Executing count 10 / time 0.00%
+
+Summary:
+  * com.brianio.monitor / u0a81:
+           TOTAL: 5.1% (4.1MB-12MB-20MB/3.0MB-10MB-18MB over 10)
+             Top: 0.36% (10MB-12MB-15MB/8.1MB-9.8MB-13MB over 3)
+         Service: 4.7% (4.1MB-12MB-20MB/3.0MB-10MB-18MB over 7)
+      Service Rs: 0.00%
+      (Last Act): 0.01%
+
+Run time Stats:
+  SOff/Norm: +3h37m15s202ms
+       Low : +1m32s10ms
+  SOn /Norm: +19h7m29s312ms
+       Low : +1h23m10s32ms
+      TOTAL: +1d0h9m26s556ms
+
+          Start time: 2017-02-07 16:13:53
+  Total elapsed time: +1d0h9m36s731ms (partial) libdvm.so chromeview
+
+AGGREGATED OVER LAST 3 HOURS:
+Per-Package Stats:
+  * com.brianio.monitor / u0a81:
+      * com.brianio.monitor / u0a81:
+               TOTAL: 36% (4.1MB-12MB-20MB/3.0MB-10MB-18MB over 10)
+                 Top: 2.5% (10MB-12MB-15MB/8.1MB-9.8MB-13MB over 3)
+             Service: 33% (4.1MB-12MB-20MB/3.0MB-10MB-18MB over 7)
+          Service Rs: 0.02%
+          (Last Act): 0.06%
+      * com.brianio.monitor.service.CoreService:
+        Process: com.brianio.monitor
+            Running count 13 / time 32%
+            Started count 8 / time 32%
+          Executing count 10 / time 0.00%
+
+Summary:
+  * com.brianio.monitor / u0a81:
+           TOTAL: 36% (4.1MB-12MB-20MB/3.0MB-10MB-18MB over 10)
+             Top: 2.5% (10MB-12MB-15MB/8.1MB-9.8MB-13MB over 3)
+         Service: 33% (4.1MB-12MB-20MB/3.0MB-10MB-18MB over 7)
+      Service Rs: 0.02%
+      (Last Act): 0.06%
+
+Run time Stats:
+  SOff/Norm: +1h26m11s724ms
+  SOn /Norm: +2h0m59s472ms
+      TOTAL: +3h27m11s196ms
+
+          Start time: 2017-02-08 13:02:12
+  Total elapsed time: +3h27m21s371ms (partial) libdvm.so chromeview
+
+CURRENT STATS:
+Per-Package Stats:
+  * com.brianio.monitor / u0a81:
+      * com.brianio.monitor / u0a81:
+               TOTAL: 57% (4.1MB-7.2MB-10MB/3.0MB-5.4MB-7.9MB over 4)
+                 Top: 0.46%
+             Service: 56% (4.1MB-7.2MB-10MB/3.0MB-5.4MB-7.9MB over 4)
+          Service Rs: 0.12%
+      * com.brianio.monitor.service.CoreService:
+        Process: com.brianio.monitor
+            Running count 6 / time 25%
+            Started count 4 / time 25%
+          Executing count 4 / time 0.00%
+
+Summary:
+  * com.brianio.monitor / u0a81:
+           TOTAL: 57% (4.1MB-7.2MB-10MB/3.0MB-5.4MB-7.9MB over 4)
+             Top: 0.46%
+         Service: 56% (4.1MB-7.2MB-10MB/3.0MB-5.4MB-7.9MB over 4)
+      Service Rs: 0.12%
+
+Run time Stats:
+  SOn /Norm: +26m56s620ms (running)
+      TOTAL: +26m56s620ms
+
+          Start time: 2017-02-08 16:02:37
+  Total elapsed time: +26m56s867ms (partial) libdvm.so chromeview
